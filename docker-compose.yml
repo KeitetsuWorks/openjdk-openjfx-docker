@@ -1,0 +1,16 @@
+version: "3.9"
+
+##
+## @file        docker-compose.yml
+## @brief       docker-compose.yml for JavaFX
+## @author      Keitetsu
+## @date        2023/02/06
+## @copyright   Copyright (c) 2023 Keitetsu
+## @par         License
+##              This software is released under the MIT License.
+##
+
+services:
+  dev:
+    image: keitetsu/openjdk-openjfx:21-jdk-bullseye
+    build: ./docker
